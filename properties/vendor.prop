@@ -220,6 +220,9 @@ vendor.display.use_smooth_motion=0
 vendor.gralloc.disable_ubwc=0
 vendor.display.vds_allow_hwc=1
 
+# Keystore
+ro.hardware.keystore_desede=true
+
 # Media
 debug.stagefright.c2inputsurface=-1
 media.stagefright.thumbnail.prefer_hw_codecs=true
