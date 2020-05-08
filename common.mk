@@ -393,6 +393,8 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 TARGET_BOARD_PLATFORM := lahaina
 
 # Power
+TARGET_PROVIDES_POWERHAL := true
+
 PRODUCT_PACKAGES += \
     android.hardware.power-service.lineage-libperfmgr \
     libqti-perfd-client
