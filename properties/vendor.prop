@@ -194,6 +194,7 @@ vendor.display.use_layer_ext=0
 vendor.display.use_smooth_motion=0
 vendor.gralloc.disable_ubwc=0
 vendor.display.vds_allow_hwc=1
+vendor.display.override_doze_mode=1
 
 # Keystore
 ro.hardware.keystore_desede=true
