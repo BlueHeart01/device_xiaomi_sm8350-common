@@ -200,4 +200,7 @@
 
     <!-- If this is true, the screen will come on when you unplug usb/power/whatever. -->
     <bool name="config_unplugTurnsOnScreen">true</bool>
+
+    <!-- Maximum velocity to initiate a fling, as measured in dips per second. -->
+    <dimen name="config_viewMaxFlingVelocity">12000dp</dimen>
 </resources>
