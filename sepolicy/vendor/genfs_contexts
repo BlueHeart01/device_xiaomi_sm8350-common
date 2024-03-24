@@ -4,6 +4,9 @@ genfscon sysfs /devices/platform/soc/soc:qcom,dsi-display-primary               
 # Fingerprint
 genfscon sysfs /devices/platform/soc/soc:fingerprint_fpc                           u:object_r:vendor_sysfs_fingerprint:s0
 
+# Graphics
+genfscon sysfs /devices/platform/soc/ae00000.qcom,mdss_mdp/idle_state                          u:object_r:vendor_sysfs_graphics:s0
+
 # UFS
 genfscon sysfs /devices/platform/soc/1d84000.ufshc/host0/target0:0:0/0:0:0:0/block/sda/queue/read_ahead_kb u:object_r:vendor_sysfs_mmc_host:s0
 
