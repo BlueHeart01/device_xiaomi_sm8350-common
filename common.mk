@@ -1,5 +1,6 @@
 #
 # SPDX-FileCopyrightText: The LineageOS Project
+# SPDX-FileCopyrightText: PixelOS
 # SPDX-License-Identifier: Apache-2.0
 #
 
@@ -386,6 +387,7 @@ PRODUCT_COPY_FILES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
+    hardware/sony/timekeep \
     hardware/xiaomi
 
 # Telephony
