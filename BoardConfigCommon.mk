@@ -44,6 +44,9 @@ BOARD_SUPPORTS_OPENSOURCE_STHAL := true
 # Bootloader
 TARGET_NO_BOOTLOADER := true
 
+# Camera
+TARGET_CAMERA_SERVICE_EXT_LIB := //$(COMMON_PATH):libcameraservice_extension.xiaomi_sm8350
+
 # Display
 TARGET_SCREEN_DENSITY ?= 440
 
