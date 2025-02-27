@@ -4,6 +4,9 @@ genfscon sysfs /devices/platform/soc/soc:qcom,dsi-display-primary               
 # Fingerprint
 genfscon sysfs /devices/platform/soc/soc:fingerprint_fpc                           u:object_r:vendor_sysfs_fingerprint:s0
 
+# UFS
+genfscon sysfs /devices/platform/soc/1d84000.ufshc/host0/target0:0:0/0:0:0:0/block/sda/queue/read_ahead_kb u:object_r:vendor_sysfs_mmc_host:s0
+
 # USB
 genfscon sysfs /devices/platform/soc/soc:qcom,pmic_glink/soc:qcom,pmic_glink:qcom,ucsi/typec u:object_r:vendor_sysfs_usb_c:s0
 
