@@ -1,6 +1,6 @@
 #
 # SPDX-FileCopyrightText: The LineageOS Project
-# SPDX-FileCopyrightText: PixelOS
+# SPDX-FileCopyrightText: Yet Another AOSP Project
 # SPDX-License-Identifier: Apache-2.0
 #
 
