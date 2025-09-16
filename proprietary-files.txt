@@ -1,6 +1,6 @@
 # All unpinned blobs below are extracted from redwood OS2.0.9.0.UMSMIXM
 # lisa: OS2.0.11.0.UKOCNXM
-# sunstone: OS2.0.1.0.UMQMIXM
+# sunstone: OS1.0.8.0.UMQMIXM
 
 # ADSP
 vendor/bin/adsprpcd
@@ -543,6 +543,7 @@ system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 vendor/app/IWlanService/IWlanService.apk
 vendor/bin/hw/qcrilNrd
 vendor/bin/adpl
+vendor/bin/netmgrd
 vendor/bin/pd-mapper
 vendor/bin/port-bridge
 vendor/bin/qti
@@ -634,9 +635,6 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so
-
-# RIL (netmgrd) - from sunstone
-vendor/bin/netmgrd|e95be4c50671f8c63b0f138c4b3547b489d8d319
 
 # Secure element
 vendor/bin/hw/vendor.qti.secure_element@1.2-service
