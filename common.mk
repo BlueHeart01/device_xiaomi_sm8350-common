@@ -27,6 +27,9 @@ $(call inherit-product, hardware/qcom-caf/common/common.mk)
 # Inherit BCR
 $(call inherit-product, vendor/bcr/bcr.mk)
 
+# Inherit Dolby Atmos
+$(call inherit-product, vendor/oneplus/dolby/dolby.mk)
+
 # Always preopt extracted APKs to prevent extracting out of the APK for gms modules.
 PRODUCT_ALWAYS_PREOPT_EXTRACTED_APK := true
 
