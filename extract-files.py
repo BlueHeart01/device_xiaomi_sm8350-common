@@ -69,7 +69,6 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libjsoncpp_shim.so')
         .add_needed('libmisightjson_shim.so'),
     'system_ext/lib64/libwfdnative.so': blob_fixup()
-        .add_needed('libbinder_shim.so')
         .add_needed('libinput_shim.so'),
 }  # fmt: skip
 
